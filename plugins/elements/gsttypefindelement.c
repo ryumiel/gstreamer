@@ -97,7 +97,7 @@ GST_STATIC_PAD_TEMPLATE ("src",
 
 /* Require at least 2kB of data before we attempt typefinding in chain-mode.
  * 128kB is massive overkill for the maximum, but doesn't do any harm */
-#define TYPE_FIND_MIN_SIZE   (2*1024)
+#define TYPE_FIND_MIN_SIZE   (1*1024)
 #define TYPE_FIND_MAX_SIZE (128*1024)
 
 /* TypeFind signals and args */
